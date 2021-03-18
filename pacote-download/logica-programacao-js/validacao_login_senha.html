@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script>
+    var loginCadastrado = "alura";
+    var senhaCadastrada = "alura321";
+    
+    var contador = 1;
+    while(contador <= 3){
+        var loginInformado = prompt("Informe seu login");
+        var senhaInformada = prompt("informe sua senha");
+        
+        if(( loginCadastrado == loginInformado) && ( senhaCadastrada == senhaInformada )){
+            alert("Bem vindo ao sistema " + loginInformado);
+            break;
+        }else {
+            if(contador ==  3){
+                alert("Numero de tentativas ultrapassadas");
+                contador += 1;
+            }else{
+                alert("Login inválido!!! " + contador  + " de 3 tentativas");
+                contador += 1;
+            } 
+        }
+    }
+</script>

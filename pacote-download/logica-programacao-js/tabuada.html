@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function  mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    for(var num = 1; num <= 10; num++){
+        document.write("<h3>Tabuada do numero "+num+"</h3>");
+        for(var multiplicador = 1; multiplicador <= 10; multiplicador++){
+            mostra(num + " x " + multiplicador + " = " + num * multiplicador);
+        }
+
+    }
+mostra ("<h4>FIM</h4>");
+</script>
