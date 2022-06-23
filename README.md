@@ -1,2 +1,2 @@
 # Logica-programacao-js
- Logica de programação com JavaScript e HTML
+ Logica de programação com JavaScript e HTML Alura
